@@ -5,70 +5,110 @@ A project that helped me learn React, TypeScript and Web Storage API
 I am following a tutorial to help me with my experience in React and allow me to understand how to use typescript and utilize
 Web Storage API
 
-Project Title
+# Project Title
+
 One Paragraph of project description goes here
 
-This initially appeared on gist, but as I can no longer open that page as there are too many comments, I have moved it here.
+This initially appeared on
+[gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2), but as
+I can no longer open that page as there are too many comments, I have
+moved it here.
 
-Summary
-Getting Started
-Runing the tests
-Deployment
-Built With
-Contributing
-Versioning
-Authors
-License
-Acknowledgments
-Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Summary
 
-Prerequisites
+  - [Getting Started](#getting-started)
+  - [Runing the tests](#running-the-tests)
+  - [Deployment](#deployment)
+  - [Built With](#built-with)
+  - [Contributing](#contributing)
+  - [Versioning](#versioning)
+  - [Authors](#authors)
+  - [License](#license)
+  - [Acknowledgments](#acknowledgments)
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on
+your local machine for development and testing purposes. See deployment
+for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
 What things you need to install the software and how to install them
 
-Give examples
-Installing
-A step by step series of examples that tell you how to get a development env running
+    Give examples
+
+### Installing
+
+A step by step series of examples that tell you how to get a development
+env running
 
 Say what the step will be
 
-Give the example
+    Give the example
+
 And repeat
 
-until finished
-End with an example of getting some data out of the system or using it for a little demo
+    until finished
 
-Running the tests
+End with an example of getting some data out of the system or using it
+for a little demo
+
+## Running the tests
+
 Explain how to run the automated tests for this system
 
-Break down into end to end tests
+### Break down into end to end tests
+
 Explain what these tests test and why
 
-Give an example
-And coding style tests
+    Give an example
+
+### And coding style tests
+
 Explain what these tests test and why
 
-Give an example
-Deployment
+    Give an example
+
+## Deployment
+
 Add additional notes about how to deploy this on a live system
 
-Built With
-Contributor Covenant - Used for the Code of Conduct
-Creative Commons - Used to choose the license
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+## Built With
 
-Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
+  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
+    for the Code of Conduct
+  - [Creative Commons](https://creativecommons.org/) - Used to choose
+    the license
 
-Authors
-Billie Thompson - Provided README Template - PurpleBooth
-See also the list of contributors who participated in this project.
+## Contributing
 
-License
-This project is licensed under the CC0 1.0 Universal Creative Commons License - see the LICENSE.md file for details
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
+of conduct, and the process for submitting pull requests to us.
 
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions
+available, see the [tags on this
+repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
+
+## Authors
+
+  - **Billie Thompson** - *Provided README Template* -
+    [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of
+[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
+who participated in this project.
+
+## License
+
+This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
+Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
+details
+
+## Acknowledgments
+
+  - Hat tip to anyone whose code was used
+  - Inspiration
+  - etc
