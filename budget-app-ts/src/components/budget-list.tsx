@@ -1,9 +1,11 @@
-// Import dependencies
 import * as React from 'react'
+
 // Import interfaces
 import { BudgetItemObjInterface, BudgetListInterface } from './../interfaces'
+
 // Import components
 import BudgetItem from './budget-item'
+
 const BudgetList = (props: BudgetListInterface) => {
   return (
     <div className="budget-list">
@@ -21,4 +23,5 @@ const BudgetList = (props: BudgetListInterface) => {
     </div>
   )
 }
+
 export default BudgetList

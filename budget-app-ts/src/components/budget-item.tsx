@@ -1,9 +1,11 @@
-// Import dependencies
 import * as React from 'react'
+
 // Import interface
 import { BudgetItemInterface } from './../interfaces'
+
 // Import components
 import IconBin from './icon-bin'
+
 const BudgetItem = (props: BudgetItemInterface) => {
   return (
     <div className="budget-item">
@@ -16,8 +18,10 @@ const BudgetItem = (props: BudgetItemInterface) => {
           checked={props.budgetItem.isPaid}
           onChange={(event) => props.handleItemUpdate(event.target.value, props.budgetItem.id, 'isPaid')}
         />
+
         <label className="custom-checkbox-label" htmlFor={props.budgetItem.id} />
       </div>
+
       <div className="budget-item-title">
         {/* Title of the item */}
         <input
@@ -26,14 +30,16 @@ const BudgetItem = (props: BudgetItemInterface) => {
           onChange={(event) => props.handleItemUpdate(event.target.value, props.budgetItem.id, 'title')}
         />
       </div>
+
       <div className="budget-item-date">
-        {/* Date the item was added */}
+        {/* Date the item was paid */}
         <input
           type="date"
           value={props.budgetItem.date}
           onChange={(event) => props.handleItemUpdate(event.target.value, props.budgetItem.id, 'date')}
         />
       </div>
+
       <div className="budget-item-price">
         {/* Price of the item */}
         <input
@@ -44,6 +50,7 @@ const BudgetItem = (props: BudgetItemInterface) => {
         {' '}
         <span>{props.budgetCurrency}</span>
       </div>
+
       <div className="budget-item-remove">
         {/* Delete item */}
         <button className="btn btn-remove" onClick={() => props.handleItemRemove(props.budgetItem.id)}><IconBin /></button>
@@ -51,4 +58,5 @@ const BudgetItem = (props: BudgetItemInterface) => {
     </div>
   )
 }
+
 export default BudgetItem
