@@ -109,6 +109,7 @@ details
 
 ## Acknowledgments
 
-  - Hat tip to anyone whose code was used
-  - Inspiration
-  - etc
+  - https://github.com/alexdevero/budget-app-ts 
+  - thanks to alex devero above for posting and going in detail on how to code this budget app
+  
+ 
